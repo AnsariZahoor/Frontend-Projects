@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Baloo+Paaji+2&family=Great+Vibes&family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#container {
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* 4 background images */
+.img-1{
+    background: url('bg1.jpg')no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.img-2{
+    background: url('bg2.jpg')no-repeat center center/cover;
+    height: 50vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+.img-3{
+    background: url('bg3.jpg')no-repeat center center/cover;
+    height: 50vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+.img-4{
+    background: url('bg4.jpg')no-repeat center center/cover;
+    height: 50vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+
+
+.header{  
+    position: absolute;
+    background-color: rgba(0,0,0, 0.8);
+    border: 2px solid black;
+    padding: 20px 20px;
+    
+}
+.header-2{  
+    position: absolute;
+    padding: 20px 20px;
+    
+}
+
+.text{
+    display: inline;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.text-2{
+    display: inline;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+
+
+/* Section one */
+.section-one{
+    width: 100%;
+   
+    margin: 40px 0px;
+}
+
+.section-head{
+    text-align: center;
+    margin: 20px;
+}
+
+.text-head{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.section-para{
+    margin: 0px 60px;
+    
+}
+
+.text-para{
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+
+
+/* footer section */
+footer{
+    background-color: black;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@media only screen and (min-width : 1025px) and (max-width:1280px){
+    
+    .img-1{
+        height: 80vh;
+    }
+    .header {
+        padding: 10px 10px;
+    }
+}
+ @media only screen and (max-width : 1024px) and (min-width:768px){
+    .img-1{
+        height: 80vh;
+    }
+    .header {
+        padding: 10px 10px;
+    } 
+}
+ @media only screen and (max-width : 1024px) and (min-width:768px) and (orientation: landscape){
+    .img-1{
+        height: 80vh;
+    }
+    .header {
+        padding: 10px 10px;
+    }
+}
+
+
+@media only screen and (max-width :767px) and (min-width:481px){
+    .img-1{
+        height: 80vh;
+    }
+    .header {
+        padding: 10px 10px;
+    }     
+} 
+
+@media only screen and (max-width :480px) and (min-width:320px){
+    .img-1{
+        height: 80vh;
+    }
+    .section-head {
+        text-align: center;
+        margin: 15px;
+    }
+    .section-para {
+        margin: 0px 10px;
+    }
+    .text-para {
+        line-height: 25px;
+    }
+    .header {
+        padding:10px;
+        text-align: center;
+        margin: 20px;
+    }
+    footer{
+        text-align: center;
+        font-size: 10px;
+    }
+  
+} 

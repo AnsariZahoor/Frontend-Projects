@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Baloo+Paaji+2&family=Great+Vibes&family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* .container */
+
+.container{
+    background: rgb(197, 195, 195);
+    width: 100%;
+    height: 100vh;
+}
+
+.heading{
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    top: 100px;
+    left: 9%;
+}
+.hr-first{
+    width: 31%;
+    position: relative;
+    top: 118px;
+    left: 31%;
+    border:0.5px solid black;
+}
+
+.text-1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 8rem;
+    font-weight: bold;
+    line-height: 116px;
+    margin-top: -10%;
+    margin-left: 117px;
+    position: relative;
+}
+
+.img1{
+    position: relative;
+    height: 321px;
+    width: 550px;
+    left: 555px;
+    top: 187px;
+}
+
+.short-para{
+    font-family: 'Baloo Paaji 2', cursive;
+    position: relative;
+    border: 2px solid blanchedalmond;
+    width: 28%;
+    height: 14%;
+    margin-left: 47%;
+    margin-top: -77px;
+    padding: 6px 11px;
+    text-align: center;
+    background: blanchedalmond;
+}
+
+
+
+/* Article */
+
+.article{
+    height: 56vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.paras{
+    width: 50%;
+    margin:54px 81px;
+    font-size: 1.1rem;
+    font-family: 'Acme', sans-serif;
+   
+}
+
+.article-img{
+    
+    height: 200px;
+    width: 400px;
+}
+.python-text{
+    top: 20px;
+}
+.java-text{
+    margin-top: 40px;
+}
+
+
+
+/* logos-section */
+
+.logos{
+    height: 50vh;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+.java-img{
+    height: 64%;
+    width: 17%;
+}
+.Django-img{
+    height: 45%;
+    width: 20%;
+}
+.git-img{
+    height: 48%;
+    width: 27%;
+}
+
+.second{
+    width: 60%;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 35px;
+}
+.third{
+    width: 60%;
+    margin: auto;
+    margin-top: -50px;
+    border: 1px solid black;
+}
+
+
+/* Article-section-2 */
+.article-2{
+    height: 30vh;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   margin-top: 30px;
+}
+
+.article-2-text-1{
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size: 24px;
+}
+
+.article-2-text-2{
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+/* Footer-section */
+.footer-section{
+    margin-top: 40px;
+    height: 6vh;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.footer-text{
+    padding: 3px;
+    font-size: 17px;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
