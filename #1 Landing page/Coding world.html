@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Befor and After pseudo selector</title>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Acme&family=Fondamento&family=Press+Start+2P&family=Work+Sans:wght@100&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            font-family: 'Acme', sans-serif;
+        }
+
+        header::before {
+            content: "";
+            position: absolute;
+            background: url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover;
+            /* background: url('code.jpg') no-repeat center center/cover; */
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            opacity: 0.4;
+        }
+
+        .navigation {
+            font-size: 17px;
+            display: flex;
+            font-family: 'Acme', sans-serif;
+        }
+
+        li {
+            list-style: none;
+            padding: 13px 21px;
+        }
+
+        section {
+
+            font-family: 'Fondamento', cursive;
+
+            align-items: center;
+            justify-content: center;
+            margin: 37px 126px;
+            display: flex;
+            flex-direction: column;
+            height: 233px;
+        }
+
+        h1 {
+            font-size: 2.3rem;
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Services</li>
+                <li class="item">Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>
+            Welcome to Coding World
+        </h1>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis itaque hic et sequi optio. Ipsa dolor
+            ipsum assumenda perspiciatis, sint in hic necessitatibus amet quis voluptatibus. Quaerat dolor tempore
+            velit aliquam vitae cupiditate obcaecati molestias, eum dicta, voluptatum, quibusdam recusandae? Autem,
+            ducimus. Soluta ut minima cum velit aliquid tempore natus.</P>
+    </section>
+
+</body>
+
+</html>

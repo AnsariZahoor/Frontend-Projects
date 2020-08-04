@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation */
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+}
+#logo{
+    margin: 0px 45px;
+}
+#logo img{
+    height: 60px;
+    margin: 16px 86px;
+}
+#navbar ul{
+    display: flex;
+    width: 550px;
+}
+#navbar::before{
+    content: "";
+    background-color: rgb(58, 54, 54);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 657px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+   
+    font-family: 'Hind Siliguri', sans-serif;
+    
+
+}
+#navbar ul li a{
+    display: block;
+    color: white;
+    padding: 3px 22px;
+
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    border-radius: 10px;
+    color: black;
+    border-bottom: 2px solid  rgb(179, 7, 231);
+    background-color: white;
+    
+}
+#navbar ul li a.active{
+    
+    border-bottom: 2px solid  rgb(179, 7, 231);
+
+}
+
+
+
+/* botton */
+
+
+#submitbtn{
+
+width: 264px;
+
+}
+.btn1 {
+    padding: 8px 13px;
+    border: 2px solid rgb(179, 7, 231);
+    background-color: rgb(179, 7, 231);
+    color: white;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer
+}
+.btn2 {
+    padding: 9px 16px;
+    border: 2px solid rgb(179, 7, 231);
+    background-color: rgb(179, 7, 231);
+    color: white;
+    font-size: 14px;
+    border-radius: 60px;
+    cursor: pointer;
+    margin-right: 320px;
+}
+.btn1:hover{
+    border-color: white;
+    
+}
+.btn2:hover{
+    border-color: white;
+    
+}
+.btn3:hover{
+   
+  background-color:rgb(101, 4, 131) ;
+}
+
+
+.btn3{
+
+
+    padding: 10px 23px;
+    border: 2px solid rgb(179, 7, 231);
+    background-color: rgb(179, 7, 231);
+    color: white;
+    font-size: 14px;
+    border-radius: 60px;
+    cursor: pointer;
+    margin: 10px 32px;
+}
+/* home section */
+#home{
+
+    display: flex;
+    
+}
+#home::before{
+    content: "";
+    background: url('back3.jpg') no-repeat center
+    center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+#box1{
+    width: 654px;
+    display: block;
+    
+    margin: 140px 68px;
+    padding: 35px 2px;
+}
+#box2{
+    width: 451px;
+    display: block;
+   border-radius: 8px;
+    background-color: white;
+    margin: 96px 160px;
+    padding: 27px 7px;
+}
+
+/* text section */
+.primary-text{
+    font-size: 2.8rem;
+   
+    font-family: 'Signika', sans-serif;
+    color: white;
+}
+.secondary-text{
+    font-family: 'Acme', sans-serif;
+    color: rgb(243, 242, 242);
+}
+
+.signup-text{
+    font-size: 40px;
+    margin: 1px 27px;
+    font-family: 'Hind Siliguri', sans-serif;
+
+}
+
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 82%;
+    padding: 10px 8px;
+    border: 2px solid rgb(201, 199, 199);
+    margin: 2px auto;
+    font-size: 13px;
+    border-radius: 4px;
+    margin: 16px 28px;
+    text-align: left;
+}
